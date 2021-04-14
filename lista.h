@@ -4,6 +4,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
+#include <stdbool.h>
 
 // DEFINICAO DO TIPO PRODUTO
 typedef struct Produto{
@@ -41,6 +42,10 @@ typedef struct Lista{
   int tam;
 }Lista;
 
+
+Celula *new_celula();
+void new_lista(lista *l);
+  
 
 
 
