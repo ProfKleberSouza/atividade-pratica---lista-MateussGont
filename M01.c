@@ -7,6 +7,6 @@ Celula *new_celula(){
 }
 
 void new_lista(lista *l){
-  l-> inicio = l->fim = new_celula();
-  l-> tam = 0;
+  l->inicio = l->fim = new_celula();
+  l->tam = 0;
 }
